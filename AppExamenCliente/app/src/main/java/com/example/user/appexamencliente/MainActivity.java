@@ -31,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
         this.finish();
     }
 
+    public void onClickConsultarCliente(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(),ClienteConsultarActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
+
 
 
 }
