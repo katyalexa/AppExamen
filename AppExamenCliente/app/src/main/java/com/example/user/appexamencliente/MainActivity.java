@@ -24,4 +24,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void onClickRegistrarCliente(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(),ClienteRegistrarActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
+
+
+
 }

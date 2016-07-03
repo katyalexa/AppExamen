@@ -23,7 +23,8 @@
             android:layout_height="wrap_content"
             android:text="Registrar CLiente"
             android:id="@+id/btnRegCLiente"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClickRegistrarCliente" />
 
         <Button
             android:layout_width="match_parent"
